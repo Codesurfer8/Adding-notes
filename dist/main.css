@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.input-block {
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: rgb(160, 185, 241);
+}
+
+.btn {
+    height: 30px;
+}
+
+.list-notes {
+    display: block;
+    background-color: rgb(150, 230, 150);
+    min-height: 60px;
+    width: 304px;
+    margin-top: 10px;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+
+
