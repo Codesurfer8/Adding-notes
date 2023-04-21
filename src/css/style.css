@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+.main-block-notes {
+    display: flex;
+}
+
+.insert-note {
+    border: 2px solid gray;
+    width: 308px;
+}
+
 .input-block {
     border: 1px solid gray;
     display: inline-block;
@@ -14,14 +23,23 @@
     background-color: rgb(160, 185, 241);
 }
 
-.btn {
+.btn-add {
     height: 30px;
+}
+
+.close-all-container {
+    display: flex;
+    justify-content: end;
+}
+
+.btn-close-all {
+    display: none;
 }
 
 .list-notes {
     display: block;
     background-color: rgb(150, 230, 150);
-    min-height: 60px;
+    min-height: 30px;
     width: 304px;
     margin-top: 10px;
 }
@@ -32,8 +50,18 @@
 }
 
 .list-item {
-    list-style-type: disc;
+    list-style-type: circle;
     font-size: 20px;
 }
 
+.save-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 
+.viewing-list-notes {
+    width: 304px;
+    border: 1px solid gray;
+}

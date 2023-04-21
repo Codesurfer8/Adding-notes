@@ -9,11 +9,26 @@
 </head>
 
 <body>
-    <div class="input-block">
-        <input type="text" class="input" value="" maxlength="30">
-        <button class="btn">Add new note</button>
+    <div class="main-block-notes">
+        <div class="insert-note">
+            <div class="input-block">
+                <input type="text" class="input" value="" maxlength="24" placeholder="Enter a note">
+                <button class="btn-add">Add new note</button>
+            </div>
+            <div class="list-notes">
+                <div class="close-all-container">
+                    <button class="btn-close-all">Close all</button>
+                </div>
+            </div>
+            <div class="save-block">
+                <input type="text" class="name-save-notes" placeholder="Set storage name" value="">
+                <button class="save-notes">Save notes</button> 
+            </div>
+        </div>
+        <div class="viewing-list-notes">
+            <div class="viewing-notes"></div>
+        </div>     
     </div>
-    <div class="list-notes"></div>
 </body>
 
 </html>
